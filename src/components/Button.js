@@ -19,3 +19,5 @@ class Button extends React.Component {
 }
 
 export default Button;
+
+// https://appbaseio-apps.github.io/bitcoin-react-component/dist/
