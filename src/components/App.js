@@ -4,9 +4,10 @@ import Title from "./Title";
 import Button from "./Button.js";
 import POPOSList from "./POPOSList";
 
-const App = () => {
+function App() {
   return (
-    <div className="Zoki">
+    <div className="App">
+      <POPOSList />
       <div
         className="ui container"
         style={{ marginTop: "10px", backgroundColor: "white" }}
@@ -14,9 +15,6 @@ const App = () => {
         <SearchBar />
         <div className="Button" style={{ backgroundColor: "white" }}>
           <Button />
-          <div className="Title">
-            <Title />
-          </div>
         </div>
       </div>
     </div>
@@ -38,6 +36,6 @@ const App = () => {
   //         >
   //           <SearchBar />
   //         </div>
-};
+}
 
 export default App;

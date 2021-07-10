@@ -3,11 +3,8 @@ import SearchBar from "./SearchBar";
 
 function POPOSList() {
   return (
-    <div
-      className="ui container"
-      style={{ marginTop: "10px", backgroundColor: "white" }}
-    >
-      <SearchBar />
+    <div className="Title">
+      <h1>Crypto article reader</h1>
     </div>
   );
 }
